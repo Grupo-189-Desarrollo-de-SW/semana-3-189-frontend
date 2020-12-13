@@ -51,7 +51,7 @@
               <a href="#!" class="forgot-password-link">¿Olvidó su contraseña?</a>
               <p class="login-card-footer-text">
                 ¿No tienes una cuenta?
-                <a href="#!" class="text-reset">Registrese aquí</a>
+                <router-link class="text-reset" to="/signup">Registrese aquí</router-link>
               </p>
               <nav class="login-card-footer-nav">
                 <a href="#!">Terminos de uso.</a>
