@@ -4,8 +4,8 @@ import router from './router'
 import axios from 'axios';
 
 const base= axios.create({
-  // baseURL: "http://localhost:3000"
-  baseURL:"https://safe-waters-18200.herokuapp.com"
+  baseURL: "http://localhost:3000"
+  //baseURL:"https://safe-waters-18200.herokuapp.com"
 });
 
 Vue.prototype.$http= base;
